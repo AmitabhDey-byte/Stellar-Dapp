@@ -1,0 +1,39 @@
+{
+  "name": "stellar-service-escrow",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b tsconfig.app.json && vite build",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "contracts:test": "cargo test --manifest-path contracts/service-escrow/Cargo.toml",
+    "contracts:build": "stellar contract build --manifest-path contracts/service-escrow/Cargo.toml"
+  },
+  "dependencies": {
+    "@stellar/freighter-api": "^4.1.0",
+    "@stellar/stellar-sdk": "^13.3.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vite": "^6.0.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.59.1",
+    "vitest": "^2.1.8"
+  }
+}
