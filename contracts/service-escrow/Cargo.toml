@@ -1,0 +1,19 @@
+[package]
+name = "service-escrow"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+soroban-sdk = "25.3.1"
+
+[dev-dependencies]
+soroban-sdk = { version = "25.3.1", features = ["testutils"] }
+
+[features]
+testutils = ["soroban-sdk/testutils"]
+
+[profile.release]
+overflow-checks = true
