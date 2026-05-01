@@ -6,6 +6,8 @@ Contract id: CDFISOTR7RO4KEVV55WPVXYFLOERV4NTKDLQY3YBOEY6AICXW5TAJKNV
 
 <img width="1910" height="859" alt="Screenshot 2026-05-01 114749" src="https://github.com/user-attachments/assets/908169bc-e80e-4f89-8517-d23c356be13b" />
 
+Demo Video Link:  https://drive.google.com/file/d/1AWCM5_P-6mkAKbH-M3JsOS8D2ATmWX0y/view?usp=sharing
+
 # Stellar Service Escrow
 
 Stellar Service Escrow is a Soroban and Freighter mini-dApp for small service payments. A client funds a job into a Soroban escrow contract, the provider can see that payment is reserved before starting work, and the client can release or cancel the escrow from Freighter.
