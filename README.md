@@ -1,3 +1,5 @@
+deployed link: https://riseinproject.netlify.app/
+
 Contract id: CDFISOTR7RO4KEVV55WPVXYFLOERV4NTKDLQY3YBOEY6AICXW5TAJKNV
 
 <img width="1919" height="972" alt="Screenshot 2026-05-01 113742" src="https://github.com/user-attachments/assets/9725a047-7499-4d99-a6ab-5784b4232b41" />
