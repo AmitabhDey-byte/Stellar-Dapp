@@ -273,6 +273,12 @@ function StatusBadge({ tx }: { tx: TxState }) {
 }
 
 function readableError(error: unknown) {
+  if (typeof error === "object" && error && "message" in error) {
+    const message = String((error as { message?: unknown }).message);
+    if (message.includes("404")) {
+      return "This Stellar testnet account was not found. Fund the connected Freighter wallet with Friendbot, then retry.";
+    }
+  }
   return error instanceof Error ? error.message : "Something went wrong.";
 }
 
