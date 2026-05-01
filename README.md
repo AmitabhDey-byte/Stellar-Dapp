@@ -1,3 +1,9 @@
+Contract id: CDFISOTR7RO4KEVV55WPVXYFLOERV4NTKDLQY3YBOEY6AICXW5TAJKNV
+
+<img width="1919" height="972" alt="Screenshot 2026-05-01 113742" src="https://github.com/user-attachments/assets/9725a047-7499-4d99-a6ab-5784b4232b41" />
+
+<img width="1910" height="859" alt="Screenshot 2026-05-01 114749" src="https://github.com/user-attachments/assets/908169bc-e80e-4f89-8517-d23c356be13b" />
+
 # Stellar Service Escrow
 
 Stellar Service Escrow is a Soroban and Freighter mini-dApp for small service payments. A client funds a job into a Soroban escrow contract, the provider can see that payment is reserved before starting work, and the client can release or cancel the escrow from Freighter.
@@ -92,7 +98,6 @@ stellar contract deploy \
   --network testnet
 ```
 
-Copy the deployed contract ID into `VITE_ESCROW_CONTRACT_ID`.
 
 For the token field, use a Stellar asset contract ID on testnet. You can deploy or use a test asset contract, then paste the token contract address into `VITE_TOKEN_CONTRACT_ID`.
 
